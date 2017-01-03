@@ -9,12 +9,15 @@ duanlg@live.cn
 Abstract
 OpenStack facilates users to provision and manage cloud services in a convenient way, including compute instances, storage and network. Meanwhile, data center requires a converged, uniformed management solution to provision, monitor, manage and diagnostic servers, and even collaborate seamlessly with other existing IT solution.This data center manager addresses this requirement by providing an open-source, easy-to-customizing, converged management solution based on OpenStack technologies, plugin mechanisms.
 
+
 Problem statement
 There are many softwares managing machines in data center but it seems that none of them provide a solution perfectly resolving all the requirements in data center: management softwares provided by hardware vendors always focus on machines manufactured by them; the existing third-party softwares only provides high-level management due to no knowledges of specific hardwares.  
 As a result, IT department has to use several management sofwares, which brings about disadvantages: increasing learning cost; struggling with different software intefaces; no easy second-development or integration with the existing IT systems. 
 
 Our solution
 The solution propose a new data center manager(henceforth, called DCM), which is customizable, modular and supporting plugins provided by third-party or hardware vendors and also leverages Ceilometer (telemetering), Ironic (baremetal), Glance (Image), Heat (collaboration) of OpenStack. 
+
+
 Customizable
 First, this DCM provides RESTful API, besides traditional CLI and Web UI, which facilitates easy collaboration with other IT system, such as machine lifecycle management. And even user can develop mobile app to manage data center. Second, user can define his monitoring target, event trigger threshold and select corrective actions for this event if necessary in a template. Last but not least important, IT department, hardware vendor or third-party can easily add their specific solution based on their specific requirement or their specific hardware capabilities.
 Modular
