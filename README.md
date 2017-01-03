@@ -2,9 +2,9 @@
 This is a project aiming for creating an data center manager leveraging OpenStack
 
 Data Center Manager Leveraging OpenStack
+
 Gary Duan
-EG
-li-gong.duan@hp.com
+duanlg@live.cn
 
 Abstract
 OpenStack facilates users to provision and manage cloud services in a convenient way, including compute instances, storage and network. Meanwhile, data center requires a converged, uniformed management solution to provision, monitor, manage and diagnostic servers, and even collaborate seamlessly with other existing IT solution.This data center manager addresses this requirement by providing an open-source, easy-to-customizing, converged management solution based on OpenStack technologies, plugin mechanisms.
